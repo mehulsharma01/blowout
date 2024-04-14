@@ -1,6 +1,9 @@
 <template>
     <div class="header-container">
-        <h5 class="text-white text-upper mb-0">Brazilian Blowout</h5>
+        <router-link to="/" style="text-decoration:none;">
+            <h5 class="text-white text-upper mb-0">Brazilian Blowout</h5>
+        </router-link>
+        
         <div class="header-navigation d-none d-lg-block">
             <ul>
                 <li><a href="javascript:void(0);" class="header-link">Shop</a></li>
